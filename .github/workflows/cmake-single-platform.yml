@@ -20,9 +20,9 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y libasound2-dev libjack-jackd2-dev \
-          glad-utils libgl1-mesa-dev libglu1-mesa-dev \
+          libgl1-mesa-dev libglu1-mesa-dev \
           libx11-dev libxcomposite-dev libxcursor-dev libxext-dev \
-          libinerama-dev libxrandr-dev libxrender-dev freeglut3-dev \
+          libxinerama-dev libxrandr-dev libxrender-dev freeglut3-dev \
           libfreetype6-dev libcurl4-openssl-dev libfontconfig1-dev
 
     - name: Configure CMake
